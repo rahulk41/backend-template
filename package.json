@@ -2,14 +2,14 @@
   "name": "backend-template",
   "scripts": {
     "dev": "bun run --hot src/index.ts",
-    "prisma:build": "prisma generate && prisma migrate deploy",
     "prod": "bun run src/index.ts",
-    "migrate:dev": "prisma migrate dev",
+    "db:build": "prisma generate && prisma migrate deploy",
+    "db:migrate:dev": "prisma migrate dev",
     "db:push": "prisma db push",
-    "migrate:reset": "prisma migrate reset",
+    "db:reset": "prisma migrate reset",
     "db:seed": "prisma db seed",
-    "prisma:generate": "prisma generate",
-    "prisma:studio": "prisma studio"
+    "db:generate": "prisma generate",
+    "db:studio": "prisma studio"
   },
   "dependencies": {
     "@hono/swagger-ui": "^0.5.1",
