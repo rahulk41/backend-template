@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "paths": {
+      "@routes/*": ["./src/routes/*"],
+      "@controller/*": ["./src/controller/*"],
+      "@middleware/*": ["./src/middleware/*"],
+      "@jwt/*": ["./src/jwt/*"],
+      "@schema/*": ["./src/schema/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@swagger/*": ["./src/swagger/*"],
+      "@config/*": ["./src/config/*"],
+      "@prisma/*": ["./prisma/*"]
+    }
+  }
+}
