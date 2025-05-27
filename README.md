@@ -20,7 +20,7 @@ A simple backend template using [Bun](https://bun.sh/), [Hono](https://hono.dev/
 You can quickly create a new project using this template with the following command:
 
 ```sh
-npx create-next-app --example https://github.com/rahulk41/backend-template my-project
+bunx create-next-app --example https://github.com/rahulk41/backend-template my-project
 ```
 
 Replace `my-project` with your desired project name.
